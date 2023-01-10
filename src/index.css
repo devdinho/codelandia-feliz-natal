@@ -1,3 +1,12 @@
+:root {
+  --pale-salmon: #F7C7B9;
+  --white: #F9F9F9;
+  --title-font: #161212;
+  --subtitle-font: #404040;
+  --p-font: #8D8D8D;
+  --btn: #DA2535;
+}
+
 * {
   margin: 0;
   padding: 0;
