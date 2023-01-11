@@ -1,4 +1,6 @@
 header {
   background-color: var(--pale-salmon);
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
