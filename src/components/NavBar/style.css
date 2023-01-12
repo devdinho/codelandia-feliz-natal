@@ -1,7 +1,8 @@
 nav {
   display: flex;
   align-items: center;
-  flex-basis: var(--max-width);
+  max-width: var(--max-width);
+  width: 100%;
 }
 
 nav span {

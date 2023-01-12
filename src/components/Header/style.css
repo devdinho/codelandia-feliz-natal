@@ -2,5 +2,6 @@ header {
   background-color: var(--pale-salmon);
   padding-top: 1.25rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }

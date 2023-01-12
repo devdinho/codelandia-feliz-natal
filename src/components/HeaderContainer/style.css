@@ -1,0 +1,42 @@
+.header-container {
+  display: flex;
+  border: 1px solid #000;
+  max-width: var(--max-width);
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.left h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--title-font);
+}
+
+.left p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--subtitle-font);
+  margin: 24px 0 40px;
+}
+
+.left button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  background-color: var(--btn);
+  color: var(--white);
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.right {
+  align-items: center;
+  flex: 1;
+  border: 1px solid #000;
+}
