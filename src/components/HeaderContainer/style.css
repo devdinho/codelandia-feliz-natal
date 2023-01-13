@@ -1,6 +1,6 @@
 .header-container {
   display: flex;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   max-width: var(--max-width);
   width: 100%;
 }
@@ -38,5 +38,4 @@
 .right {
   align-items: center;
   flex: 1;
-  border: 1px solid #000;
 }

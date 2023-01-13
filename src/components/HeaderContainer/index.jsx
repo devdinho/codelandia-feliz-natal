@@ -1,3 +1,4 @@
+import SantaHands from "../SantaHands";
 import "./style.css";
 
 const HeaderContainer = () => {
@@ -11,7 +12,9 @@ const HeaderContainer = () => {
         </p>
         <button>Fazer uma doação</button>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <SantaHands />
+      </div>
     </div>
   )
 };
