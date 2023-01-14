@@ -1,0 +1,50 @@
+main {
+  display: flex;
+  background-color: var(--white);
+  justify-content: center;
+  padding: 3rem 1.5rem 2.5rem;
+}
+
+main section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: var(--max-width);
+  text-align: center;
+}
+
+section h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  color: var(--title-font);
+}
+
+section p {
+  max-width: 480px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--subtitle-font);
+  margin: 0.75rem 0 2rem;
+}
+
+.gifts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 8.75rem;
+  text-align: center;
+}
+
+.gifts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  flex: 1;
+}
+
+.gifts-wrapper img {
+}
+
