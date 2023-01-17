@@ -2,7 +2,7 @@ main {
   /* display: flex; */
   background-color: var(--white);
   justify-content: center;
-  padding: 3rem 1.5rem 2.5rem;
+  padding: 3rem 1.5rem 0;
 }
 
 .upper-section {
